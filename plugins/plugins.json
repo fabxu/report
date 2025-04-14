@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Compare_Result",
+    "key": "Compare_Result",
+    "class": "plugins.t68_line_plugin.t68_line_plugin.T68LinePlugin",
+    "des": "评测结果比较",
+    "version": "v1.0.0"
+  }
+]

@@ -1,0 +1,67 @@
+{
+    "天气": {
+        "Cloudy": "阴天",
+        "Foggy": "有雾",
+        "Rainy": "下雨",
+        "Snowy": "下雪",
+        "Sunny": "晴天"
+    },
+    "行为": {
+        "Changing_lanes": "变道",
+        "Go_straight": "直行",
+        "Reversing": "倒车",
+        "Turning_left": "左转",
+        "Turning_right": "右转",
+        "U_turn": "掉头"
+    },
+    "光照": {
+        "Backlighting": "逆光",
+        "Daylight": "白天",
+        "Night_with_streetlights": "夜晚有路灯",
+        "Night_without_streetlights": "夜晚无路灯",
+        "Indoor_with_light": "室内有灯光"
+    },
+    "道路属性": {
+        "Bus_stop": "公交车站",
+        "Curve": "弯道",
+        "Extra_wide_or_narrow_lane": "过宽或过窄车道",
+        "Incline_or_decline": "上坡或下坡",
+        "Intersection": "十字路口",
+        "Merge_with_diversion": "合流",
+        "Merge_non_diversion": "非合流",
+        "Merge_with_thick_line": "有粗线的合流",
+        "Parking_lot": "停车场",
+        "Ramp": "匝道",
+        "Split_non_diversion": "非分流",
+        "Split_with_thick_line": "分流",
+        "Stright": "直道",
+        "Straight": "直道",
+        "T-junctions": "T字路口",
+        "Toll": "收费站",
+        "Tunnel": "隧道",
+        "lane_for_LTurn": "左转车道",
+        "lane_for_RTurn": "右转车道",
+        "lane_for_UTurn": "掉头车道",
+        "lanes_changed": "车道变化",
+        "large_C_roadside": "大型C型路边",
+        "minor_C_roadside": "小型C型路边"
+    },
+    "道路类型": {
+        "Country": "郊区",
+        "Highway": "高速",
+        "Indoor": "室内",
+        "Urban": "城区"
+    },
+    "曲率": {
+        "Radius(0,50]": "弯道(0~50)",
+        "Radius(50,100]": "弯道(50~100)",
+        "Radius(100,200]": "弯道(100~200)",
+        "Radius(0,200]": "大曲率弯道(0~200)",
+        "Radius(200,400]": "小曲率弯道(200~400)",
+        "Radius(400,10000000000000]": "直道(>400)"
+
+    },
+    "总评": {
+        "Sum-Sum-RadiusSum": "总场景"
+    }
+}

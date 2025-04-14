@@ -1,0 +1,9 @@
+sseHost: http://datapro-beta.senseauto.com
+sseBasePath: /api/sse-service/noauth
+ads:
+  profile: ad_system_common
+authHeader: {"Token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0MzcwNjk0OTc4NTc3NzI5NjAifQ.eyJlbWFpbCI6bnVsbCwibmFtZSI6ImNoZW53YW5nMDEudmVuZG9yIiwibW9iaWxlIjpudWxsLCJleHRlcm5hbElkIjoiY2hlbndhbmcwMS52ZW5kb3IiLCJ1ZEFjY291bnRVdWlkIjoiZmM2NjdmNjEzMzQ0MTNlM2MwOTdjOTAyOGFkM2YyYWZwdW9hSnU2amRtMyIsIm91SWQiOiJtYWluIiwib3VOYW1lIjoi5Lq65LqL57uE57uHIiwib3BlbklkIjpudWxsLCJpZHBVc2VybmFtZSI6ImNoZW53YW5nMDEudmVuZG9yIiwidXNlcm5hbWUiOiJjaGVud2FuZzAxLnZlbmRvciIsImFwcGxpY2F0aW9uTmFtZSI6IkRBVEFQUk9fQkVUQSIsImVudGVycHJpc2VJZCI6InNlbnNldGltZSIsImluc3RhbmNlSWQiOiJzZW5zZXRpbWUiLCJhbGl5dW5Eb21haW4iOiIiLCJleHRlbmRGaWVsZHMiOnt9LCJleHAiOjE3MzM1NDIzODIsImp0aSI6Ijdhd2NVYWQ2R3FmaV9RUEhGcDFRNlEiLCJpYXQiOjE3MzM1NDE3ODIsIm5iZiI6MTczMzU0MTcyMiwic3ViIjoiY2hlbndhbmcwMS52ZW5kb3IiLCJpc3MiOiJodHRwczovL3Rlc3Qtc3NvMi5zZW5zZXRpbWUuY29tLyJ9.IEn67pSOAAV2vTau8LXS5xrHrJ2rhr5FTVx7Mto_AikLVsrxZRdQUHYgCbPrpUiVwYH15RloW8-zaUqrcfvZRPt29dfDUTKt0PgemFJczi-kRZ7NkYPj_ZTZ3ngQHD053KsJhcZ9-gz8g-Gl_CPoKmu-buVVvW7n-QjhnYDvayLbiHHxoQ9Q1_WlBfAQe2LQAFEze9X78uSOD_XXF82zZZOwGY7HoHCPCqoktea3O8v4MOUKz3JrLi2YVequ3IKJpl9Yc-u11JGRNdADV2-U7NeHuMVBCQ48cEtbs4cpF5JvWXOiJ4p87S0YhsWd7YqN8OMOeGUVehhSlkNDJE2_oA"}
+alert:
+  path: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={}
+  key: 5014f73a-0df4-4fef-a3ed-a68931ffccd9
+  templates: "生成评测报告<font color=\"warning\">{}</font>错误， 请相关同事注意。\n >job名称：{} \n >创建人：{} \n >发生时间:<font color=\"comment\">{}</font> \n >job id: {} \n >错误详情:<font color=\"comment\">{}</font> \n"
